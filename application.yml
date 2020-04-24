@@ -1,5 +1,8 @@
 loggin:
   config: classpath:logback-${spring.profiles.active}.xml
+  
+server:
+  port: 9999
 
 
 spring:
