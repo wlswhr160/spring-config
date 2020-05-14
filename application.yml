@@ -1,0 +1,11 @@
+server:
+   port: 8888
+spring:
+  profiles:
+    active: native
+  cloud:
+     config:
+       server:
+           native:
+              searchLocations: file:///C:\006962-master\spmia-chapter3\confsvr\src\main\resources\config\licensingservice,
+                               file:///C:\006962-master\spmia-chapter3\confsvr\src\main\resources\config\organizationservice
