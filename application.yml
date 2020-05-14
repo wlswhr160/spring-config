@@ -6,4 +6,4 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/myanjini/spring-config.git
+          uri: https://github.com/wlswhr160/spring-config.git
